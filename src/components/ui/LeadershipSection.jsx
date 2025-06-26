@@ -49,7 +49,7 @@ const LeadershipSection = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="relative w-[280px] md:w-[400px] rounded-2xl overflow-hidden drop-shadow-2xl z-20">
             <Image
-              src="/assets/leadership.png"
+              src="/assets/shavez_img.png"
               alt="Shavez Ahmed Siddiqui"
               width={190}
               height={300}

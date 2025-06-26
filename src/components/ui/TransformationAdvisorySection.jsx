@@ -24,19 +24,19 @@ const TransformationAdvisorySection = () => {
   return (
     <section className="bg-black -mt-16 text-white py-24 px-6 font-jakarta text-center">
       {/* Header */}
-      <div className="max-w-4xl mx-auto mb-16">
+      <div className="max-w-4xl mx-auto mb-12">
         <p className="uppercase text-sm text-gray-400 tracking-wide">
           Strategic IT Consulting &
         </p>
         <h2
-          className="text-3xl md:text-5xl font-extrabold uppercase mt-2"
+          className="text-4xl leading-tight md:text-6xl font-extrabold uppercase mt-2"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
-          <span className="bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r text-[#9498FD] bg-clip-text ">
             TRANSFORMATION ADVISORY
           </span>
         </h2>
-        <p className="mt-6 text-sm md:text-base text-gray-400 leading-relaxed">
+        <p className="mt-6 text-xs md:text-sm text-[#FFFFFFCC] leading-relaxed">
           Technology is only as effective as the strategy behind it. Our
           consulting practice is focused on helping businesses modernize their
           infrastructure, align technology with business goals, and stay
@@ -45,22 +45,31 @@ const TransformationAdvisorySection = () => {
       </div>
 
       {/* Service Grid */}
-      <div className="grid mx-16 grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
+      <div className="grid mx-16 grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto relative">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <img
+            src="/assets/elipse_1458.png"
+            className="absolute right-40 -top-40 w-48 md:w-180 md:h-180 pointer-events-none  "
+            alt="decoration"
+          />
+        </div>
         {services.map((service, index) => (
           <div
             key={index}
-            className={`p-8 rounded-4xl  shadow-md  duration-300 ease-in-out ${
+            className={`p-8 rounded-4xl   shadow-md duration-300 ease-in-out ${
               index % 2 === 0
-                ? "bg-gradient-to-r from-[#000000] to-[#9498FD73]"
+                ? "bg-gradient-to-r  from-[#000000] to-[#9498FD73]"
                 : "bg-gradient-to-l from-[#000000] to-[#9498FD73]"
             }`}
           >
-            <h3 className="text-lg font-semibold text-white mb-2">
+            <h3 className="text-lg font-semibold text-[#9498FD] mb-2">
               {service.title}
             </h3>
-            <p className="text-sm text-gray-300 mb-4">{service.subtitle}</p>
+            <p className="text-base text-[#FFFFFFCC] mb-4">
+              {service.subtitle}
+            </p>
             <div className="flex justify-center">
-              <div className="w-8 h-8 rounded-full border border-gray-500 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full border border-[#FFFFFF] flex items-center justify-center">
                 <Icon icon="uil:play" className="text-white text-sm" />
               </div>
             </div>

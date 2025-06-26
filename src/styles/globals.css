@@ -39,3 +39,8 @@ body {
 .hero-bg {
   animation: pulse-slow 6s ease-in-out infinite;
 }
+
+.outline-text {
+  -webkit-text-stroke: 1px #3c3c50; /* Stroke color */
+  color: transparent; /* Make text fill transparent */
+}

@@ -26,18 +26,19 @@ const OurServicesSection = () => {
       {/* Background decorations (optional waves if you want to use images) */}
       <img
         src="/assets/left-wave.png"
-        className="absolute -left-10 bottom-100 w-48 md:w-72 opacity-50 pointer-events-none"
+        className="absolute -left-30 bottom-0 w-48 md:w-80 md:h-180 opacity-50 pointer-events-none scale-x-[1] scale-y-[-1]"
         alt="decoration"
         style={{
-          transform: "rotate(20deg)", // Adjust if rotation needed
+          transform: "rotate(20.06deg)", // Adjust if rotation needed
         }}
       />
+
       <img
         src="/assets/right-wave.png"
-        className="absolute -right-20 top-0 w-48 md:w-72 opacity-70 pointer-events-none"
+        className="absolute -right-20 -top-10 w-48 md:w-100 md:h-180 opacity-50 pointer-events-none  scale-x-[-1]"
         alt="decoration"
         style={{
-          transform: "rotate(190deg)", // Adjust if rotation needed
+          transform: "rotate(20.06deg)", // Adjust if rotation needed
         }}
       />
 
@@ -65,15 +66,20 @@ const OurServicesSection = () => {
         {services.map((service, index) => (
           <div
             key={service.id}
-            className="relative w-full max-w-xl bg-gradient-to-b from-[#000000] to-[#9498FD] rounded-md px-6 py-5 text-center shadow-lg border border-[#2B2B42]"
+            className="relative w-full max-w-xl mx-auto text-center px-6 py-5 rounded-[10.52px]
+           bg-gradient-to-b from-[rgba(0,0,0,0.31)] to-[rgba(148,152,253,0.31)]
+           border border-[0.5px]
+           border-[rgba(255,255,255,0.15)]
+           backdrop-blur-[31.55px] shadow-md"
           >
             {/* Circle Number */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-sm font-bold">
+              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-sm font-bold text-white">
                 #{service.id}
               </div>
             </div>
-            <p className="mt-3 text-base md:text-sm font-medium text-gray-200">
+
+            <p className="mt-3 text-sm  font-[500] text-[#FFFFFF]">
               {service.title}
             </p>
           </div>

@@ -46,13 +46,16 @@ const WhyChoose = () => {
         METANERDS
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="md:mx-24 grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((item, index) => (
           <div
             key={index}
-            className={`relative p-6 rounded-2xl border-l-1 border-b-1 border-[#9F9DFD] bg-gradient-to-b from-[#00000052] to-[#9498FD4D] hover:border-[#9F9DFD] transition-all duration-300 ${
-              item.image ? "flex justify-between items-center" : ""
-            }`}
+            className={`relative p-6 rounded-2xl shadow-md backdrop-blur-[31.55px] transition-all duration-300
+        border border-[0.5px] border-[rgba(255,255,255,0.15)] 
+        bg-[linear-gradient(180deg,rgba(148,152,253,0.0288)_0%,rgba(148,152,253,0.1656)_100%)]
+        ${
+          item.image ? " md:col-span-2 flex justify-between" : "md:col-span-1"
+        }`}
           >
             {/* Left content (text + icon + number) */}
             <div className="flex flex-col justify-between gap-4 w-full max-w-[70%]">
@@ -65,11 +68,11 @@ const WhyChoose = () => {
                 </p>
               </div>
 
-              <div className="flex items-center justify-between w-full mt-4">
+              <div className="flex items-center justify-between w-full mt-2">
                 <div className="text-4xl">
                   <Icon icon={item.icon} style={{ color: "#9498FD" }} />
                 </div>
-                <div className="text-[#2E2E2E] text-4xl font-extrabold">
+                <div className="text-[#2E2E2E] text-[55px] font-extrabold outline-text">
                   {item.number}
                 </div>
               </div>
@@ -77,13 +80,13 @@ const WhyChoose = () => {
 
             {/* Right image */}
             {item.image && (
-              <div className="ml-6 shrink-0">
+              <div className="ml-6 hidden md:block shrink-0">
                 <Image
                   width={150}
-                  height={150}
+                  height={120}
                   src={item.image}
                   alt={`feature ${index + 1}`}
-                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[150px] h-full object-cover"
+                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[160px] h-full "
                 />
               </div>
             )}
