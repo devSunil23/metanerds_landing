@@ -12,7 +12,7 @@ export default function Header() {
     <header className="w-full fixed top-0 z-50 bg-gradient-to-t from-[#EDF6FF] to-[#F5E3FC]">
       <div className="h-[14px] w-full bg-[#635AD9] rounded-b-[30px]" />
 
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-20 py-3">
         {/* Logo */}
         {/* Logo with Image */}
         <Link href="/">

@@ -41,7 +41,7 @@ const DigitalMarketingSection = () => {
           transform: "rotate(75deg)", // Adjust if rotation needed
         }}
       />
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center">
         {/* Title and Description */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-16 relative max-w-7xl mx-auto px-4">
           {/* Left side */}
