@@ -46,7 +46,7 @@ const WhyChoose = () => {
         METANERDS
       </h1>
 
-      <div className="md:mx-24 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="md:mx-28 grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((item, index) => (
           <div
             key={index}
@@ -58,17 +58,21 @@ const WhyChoose = () => {
         }`}
           >
             {/* Left content (text + icon + number) */}
-            <div className="flex flex-col justify-between gap-4 w-full max-w-[70%]">
+            <div
+              className={`flex flex-col justify-between gap-4 w-full ${
+                item.image ? "md:max-w-[67%]" : "md:max-w-[100%]"
+              } `}
+            >
               <div>
-                <h3 className="text-lg md:text-xl font-semibold text-[#9498FD] leading-snug">
+                <h3 className="text-sm md:text-[16px] font-lighterbold text-[#9498FD]">
                   {item.title}
                 </h3>
-                <p className="text-xs md:text-sm text-[#FFFFFF] mt-2 font-extralight">
+                <p className="text-xs leading-[18px] md:text-[12px] text-[#FFFFFF] mt-2 font-normal">
                   {item.description}
                 </p>
               </div>
 
-              <div className="flex items-center justify-between w-full mt-2">
+              <div className="flex items-center justify-between w-full ">
                 <div className="text-4xl">
                   <Icon icon={item.icon} style={{ color: "#9498FD" }} />
                 </div>
@@ -83,10 +87,10 @@ const WhyChoose = () => {
               <div className="ml-6 hidden md:block shrink-0">
                 <Image
                   width={150}
-                  height={120}
+                  height={100}
                   src={item.image}
                   alt={`feature ${index + 1}`}
-                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[160px] h-full "
+                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[180px] h-full "
                 />
               </div>
             )}

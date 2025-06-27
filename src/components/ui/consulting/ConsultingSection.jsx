@@ -50,19 +50,36 @@ const consultingData = [
 
 const ConsultingSection = () => {
   return (
-    <section className="bg-black py-16 px-6 md:px-20 relative">
-      <div className="hidden md:block absolute inset-0 z-0 pointer-events-none">
-        <img
-          src="/assets/elipse_1460.png"
-          alt="elipse_1459"
-          className="absolute w-200 h-200 object-contain  "
-          style={{
-            top: `12%`,
-            left: `-18%`,
-          }}
-        />
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+    <section className="bg-black overflow-hidden py-16 px-6 md:px-28 relative">
+      <img
+        src="/assets/elipse_1460.png"
+        alt="elipse_1460"
+        className="absolute w-150 h-150 object-contain  "
+        style={{
+          top: `-5%`,
+          left: `-14%`,
+        }}
+      />
+      <img
+        src="/assets/elipse_1459.png"
+        alt="elipse_1459"
+        className="absolute w-150 h-150 object-contain  "
+        style={{
+          bottom: `30%`,
+          right: `-12%`,
+        }}
+      />
+      <img
+        src="/assets/elipse_1460.png"
+        alt="elipse_1460"
+        className="absolute w-150 h-150 object-contain  "
+        style={{
+          bottom: `-5%`,
+          left: `-14%`,
+        }}
+      />
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12">
         {consultingData.map((item, idx) => (
           <ConsultingCard key={idx} {...item} />
         ))}

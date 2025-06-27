@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const LeadershipSection = () => {
   return (
-    <section className="relative bg-black text-white py-12 px-6 md:px-20 font-jakarta overflow-hidden">
+    <section className="relative pt-48 bg-black text-white py-12 px-6 md:px-20 font-jakarta overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -18,7 +18,7 @@ const LeadershipSection = () => {
       </div>
 
       {/* Foreground Content */}
-      <div className="relative z-10 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+      <div className="relative  z-10 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
         {/* === Left Content === */}
         <div className="w-full md:w-1/2 text-left">
           <h2
@@ -49,7 +49,7 @@ const LeadershipSection = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="relative w-[280px] md:w-[400px] rounded-2xl overflow-hidden drop-shadow-2xl z-20">
             <Image
-              src="/assets/shavez_img.png"
+              src="/assets/shavez_original.png"
               alt="Shavez Ahmed Siddiqui"
               width={190}
               height={300}

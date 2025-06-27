@@ -12,7 +12,7 @@ const AiCard = ({ title, description }) => {
         ))}
       </h3>
 
-      <div className="h-[2px] w-10 bg-[#9498FD] mx-auto my-4 rounded-full"></div>
+      <div className="h-[2px] w-14 bg-[#9498FD] mx-auto my-4 rounded-full"></div>
 
       <p className="text-sm text-[#FFFFFFCC] leading-relaxed max-w-md mx-auto">
         {description}

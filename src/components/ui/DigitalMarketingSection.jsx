@@ -72,7 +72,7 @@ const DigitalMarketingSection = () => {
         </div>
 
         {/* Strategy Cards */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div className="mt-16 md:mx-26 grid grid-cols-1 md:grid-cols-5 gap-4">
           {strategies.map((item, index) => (
             <div
               key={index}
@@ -101,16 +101,24 @@ const DigitalMarketingSection = () => {
         </div>
 
         {/* Quote */}
-        <div className="mt-16 text-gray-300 text-sm max-w-2xl mx-auto  relative">
-          <Icon
-            icon="mdi:format-quote-open"
-            className="absolute left-0 bottom-0 text-3xl opacity-30"
+        <div className="mt-16 flex items-center text-gray-300 text-sm max-w-2xl mx-auto  relative">
+          <img
+            src="/assets/Frame 23.png"
+            alt="quote"
+            height={45}
+            width={40}
+            className="-mt-4 "
           />
-          We don’t just chase impressions—we build momentum that turns into
-          measurable impact.
-          <Icon
-            icon="mdi:format-quote-close"
-            className="absolute right-0 bottom-0 text-3xl opacity-30"
+          <span>
+            We don’t just chase impressions—we build momentum that turns into
+            measurable impact.
+          </span>
+          <img
+            src="/assets/Frame 22.png"
+            alt="quote"
+            height={45}
+            width={40}
+            className="-mt-4 "
           />
         </div>
       </div>

@@ -23,28 +23,27 @@ const aiSolutions = [
 
 const AiSolutionsSection = () => {
   return (
-    <section className="bg-black relative px-6 md:px-20 py-20 flex flex-col items-center gap-10 text-white">
-      <div className="hidden md:block absolute inset-0 z-0 pointer-events-none">
-        <img
-          src="/assets/elipse_1460.png"
-          alt="elipse_1459"
-          className="absolute w-200 h-200 object-contain  "
-          style={{
-            top: `20%`,
-            left: `-18%`,
-          }}
-        />
-        <img
-          src="/assets/elipse_1459.png"
-          alt="elipse_1459"
-          className="absolute w-200 h-200 object-contain"
-          style={{
-            top: `-22%`,
-            right: "0%",
-            rotate: "-90deg",
-          }}
-        />
-      </div>
+    <section className="bg-black relative overflow-hidden px-6 md:px-20 py-20 flex flex-col items-center gap-10 text-white">
+      <img
+        src="/assets/elipse_1460.png"
+        alt="elipse_1459"
+        className="absolute w-200 h-200 object-contain  "
+        style={{
+          top: `-12%`,
+          left: `-17%`,
+        }}
+      />
+      <img
+        src="/assets/elipse_1459.png"
+        alt="elipse_1459"
+        className="absolute w-200 h-200 object-contain"
+        style={{
+          bottom: `-20%`,
+          right: "-20%",
+          // rotate: "-90deg",
+        }}
+      />
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="col-span-1 md:col-span-2 flex md:justify-center">
           <AiCard {...aiSolutions[0]} />

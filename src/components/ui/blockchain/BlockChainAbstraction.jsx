@@ -17,7 +17,12 @@ const BlockChainAbstraction = () => {
         </div>
 
         {/* Content Card */}
-        <div className="relative z-10 bg-gradient-to-b from-[#9498FD80] to-[#9498FD10] rounded-2xl p-8 md:p-10 shadow-lg border border-[#9498FDA6] max-w-2xl w-full pl-20 backdrop-blur-sm">
+        <div
+          className="relative z-10 bg-gradient-to-b from-[rgba(148,152,253,0.31)] to-[rgba(0,0,0,0.31)]
+            border-t border-l border-r 
+    border-[rgba(255,255,255,0.15)]
+           backdrop-blur-[31.55px] shadow-md rounded-2xl p-8 md:p-10 shadow-lg  max-w-2xl w-full pl-20"
+        >
           <h2
             className="text-2xl md:text-4xl font-extrabold uppercase leading-snug"
             style={{

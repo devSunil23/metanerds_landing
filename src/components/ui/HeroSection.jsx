@@ -18,11 +18,11 @@ const HeroSection = () => {
             style={
               i === 0
                 ? {
-                    top: `15%`,
+                    top: `0%`,
                     left: `15%`,
                   }
                 : {
-                    top: `15%`,
+                    top: `0%`,
                     right: `15%`,
                   }
             }

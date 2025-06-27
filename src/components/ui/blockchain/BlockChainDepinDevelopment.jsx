@@ -14,7 +14,7 @@ const BlockchainDepinDevelopment = () => {
             alt="Blockchain depin"
             width={500}
             height={500}
-            className="w-[300px] md:w-[450px] h-auto"
+            className="w-[300px] md:w-[450px] h-auto filter drop-shadow-[40px_30px_40px_rgba(233,115,222,0.5)]"
           />
         </div>
         {/* Right Side  */}

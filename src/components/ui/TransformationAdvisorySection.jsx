@@ -56,12 +56,20 @@ const TransformationAdvisorySection = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className={`p-8 rounded-4xl   shadow-md duration-300 ease-in-out ${
+            className={`p-8 rounded-4xl    shadow-md duration-300 ease-in-out  ${
               index % 2 === 0
-                ? "bg-gradient-to-r  from-[#000000] to-[#9498FD73]"
-                : "bg-gradient-to-l from-[#000000] to-[#9498FD73]"
+                ? "bg-gradient-to-r border border-[0.5px] border-[rgba(255,255,255,0.15)] from-[#000000] to-[#9498FD73]"
+                : "bg-gradient-to-l border border-[0.5px] border-[rgba(255,255,255,0.15)] from-[#000000] to-[#9498FD73]"
             }`}
           >
+            {/* Fading border overlay */}
+            <div
+              className={`absolute top-0 bottom-0 w-4 z-10 ${
+                index % 2 === 0
+                  ? "left-0 bg-gradient-to-r from-black to-transparent"
+                  : "right-0 bg-gradient-to-l from-black to-transparent"
+              }`}
+            ></div>
             <h3 className="text-lg font-semibold text-[#9498FD] mb-2">
               {service.title}
             </h3>

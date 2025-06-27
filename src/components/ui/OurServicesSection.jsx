@@ -87,16 +87,25 @@ const OurServicesSection = () => {
       </div>
 
       {/* Quote */}
-      <div className="mt-10 text-center relative max-w-2xl mx-auto text-sm md:text-base text-gray-300 ">
-        <Icon
-          icon="mdi:format-quote-open"
-          className="absolute -left-2 bottom-8 text-3xl opacity-30"
+      <div className="mt-10 flex items-center text-center relative max-w-2xl mx-auto text-sm md:text-base text-gray-300 ">
+        <img
+          src="/assets/Frame 23.png"
+          alt="quote"
+          height={45}
+          width={40}
+          className="-mt-4"
         />
-        We don’t just write code—we build technology frameworks that evolve with
-        your business.
-        <Icon
-          icon="mdi:format-quote-close"
-          className="absolute -right-2 bottom-8 text-3xl opacity-30"
+        <span>
+          {" "}
+          We don’t just write code—we build technology frameworks that evolve
+          with your business.
+        </span>
+        <img
+          src="/assets/Frame 22.png"
+          alt="quote"
+          height={45}
+          width={40}
+          className="-mt-4"
         />
       </div>
     </section>
