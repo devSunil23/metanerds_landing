@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="bg-black text-white -mt-20 py-8 px-6 md:px-16 lg:px-24 font-jakarta">
+    <section className="bg-black text-white -mt-10 py-8 px-6 md:px-16 lg:px-24 font-jakarta">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">
         {/* === LEFT TEXT === */}
-        <div className="md:w-1/2  md:ml-24">
+        <div className="md:w-[70%]  md:ml-24">
           <h2
             style={{
               fontFamily: '"Agency FB", sans-serif',
@@ -29,7 +29,7 @@ const AboutSection = () => {
             Innovating at the Intersection of <br /> Technology and Business
           </h3>
 
-          <p className="mt-6 text-xs eading-relaxed  md:text-sm text-gray-400 leading-relaxed text-center md:text-left">
+          <p className="mt-6 text-xs eading-relaxed  md:text-[18px] text-gray-400 leading-relaxed text-center md:text-left">
             METANERDS INFOLABS is a specialized consulting firm headquartered in
             Dubai Silicon Oasis, operating within the thriving IFZA ecosystem.
             We serve as a strategic partner to organizations seeking to embrace
@@ -37,7 +37,7 @@ const AboutSection = () => {
             vision.
           </p>
 
-          <p className="mt-6 text-xs md:text-sm text-gray-400 leading-relaxed text-center md:text-left">
+          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-left">
             Founded by technology leaders Shahvez Ahmed Siddiqui and Aleeem
             Ahmed Siddiqui, METANERDS brings together deep technical knowledge,
             strategic thinking, and market insight. From emerging ventures to
@@ -45,7 +45,7 @@ const AboutSection = () => {
             through tailored digital solutions.
           </p>
 
-          <p className="mt-6 text-xs md:text-sm text-gray-400 leading-relaxed text-center md:text-left">
+          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-left">
             With a core focus on software systems design, IT consulting, and
             digital marketing services, we empower companies to not only
             adapt—but lead—in a technology-first economy.
