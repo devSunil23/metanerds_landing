@@ -143,7 +143,7 @@ const HeroSection = () => {
           style={{
             fontFamily: "Plus Jakarta Sans",
           }}
-          className="mt-6 re text-sm md:text-base text-gray-400 max-w-xl mx-auto leading-[30px]"
+          className="mt-6 re text-sm md:text-[18px] text-gray-400 max-w-xl mx-auto leading-[30px]"
         >
           We help modern businesses evolve through customized software design,
           future-focused IT strategy, and full-stack digital development —

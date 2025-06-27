@@ -36,7 +36,7 @@ const TransformationAdvisorySection = () => {
             TRANSFORMATION ADVISORY
           </span>
         </h2>
-        <p className="mt-6 text-xs md:text-sm text-[#FFFFFFCC] leading-relaxed">
+        <p className="mt-6 text-xs md:text-[18px] text-[#FFFFFFCC] leading-relaxed">
           Technology is only as effective as the strategy behind it. Our
           consulting practice is focused on helping businesses modernize their
           infrastructure, align technology with business goals, and stay
