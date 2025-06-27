@@ -47,13 +47,12 @@ const LeadershipSection = () => {
 
         {/* === Right Image === */}
         <div className="w-full md:w-1/2 flex justify-center">
-          <div className="relative w-[280px] md:w-[400px] rounded-2xl overflow-hidden drop-shadow-2xl z-20">
+          <div className="relative w-[280px] md:w-[400px] aspect-[2/3] rounded-2xl overflow-hidden drop-shadow-2xl z-20">
             <Image
-              src="/assets/shavez_original.png"
+              src="/assets/shavez_img.png"
               alt="Shavez Ahmed Siddiqui"
-              width={190}
-              height={300}
-              className="object-cover w-full h-auto rounded-xl"
+              fill
+              className="object-cover w-full h-full rounded-xl"
             />
           </div>
         </div>
