@@ -46,7 +46,7 @@ const WhyChoose = () => {
         METANERDS
       </h1>
 
-      <div className="md:mx-28 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="md:mx-36 grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((item, index) => (
           <div
             key={index}
