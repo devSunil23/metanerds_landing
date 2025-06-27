@@ -46,7 +46,7 @@ const WhyChoose = () => {
         METANERDS
       </h1>
 
-      <div className="md:mx-36 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="md:mx-30 grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((item, index) => (
           <div
             key={index}
@@ -60,7 +60,7 @@ const WhyChoose = () => {
             {/* Left content (text + icon + number) */}
             <div
               className={`flex flex-col justify-between gap-4 w-full ${
-                item.image ? "md:max-w-[67%]" : "md:max-w-[100%]"
+                item.image ? "md:max-w-[65%]" : "md:max-w-[100%]"
               } `}
             >
               <div>
@@ -90,7 +90,7 @@ const WhyChoose = () => {
                   height={100}
                   src={item.image}
                   alt={`feature ${index + 1}`}
-                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[180px] h-full "
+                  className="rounded-xl absolute right-0 bottom-0 top-0 w-[100px] md:w-[190px] h-full "
                 />
               </div>
             )}
