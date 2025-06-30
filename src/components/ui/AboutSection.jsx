@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="bg-black text-white -mt-10 py-8 px-6 md:px-16 lg:px-20 font-jakarta">
+    <section className="bg-black text-white   md:-mt-10 py-8 px-6 md:px-16 lg:px-20 font-jakarta">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">
         {/* === LEFT TEXT === */}
         <div className="md:w-[85%]  md:ml-24">
@@ -29,7 +29,7 @@ const AboutSection = () => {
             Innovating at the Intersection of <br /> Technology and Business
           </h3>
 
-          <p className="mt-6 text-xs eading-relaxed  md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-xs eading-relaxed  md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
             METANERDS INFOLABS is a specialized consulting firm headquartered in
             Dubai Silicon Oasis, operating within the thriving IFZA ecosystem.
             We serve as a strategic partner to organizations seeking to embrace
@@ -37,15 +37,15 @@ const AboutSection = () => {
             vision.
           </p>
 
-          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
-            Founded by technology leaders Shahvez Ahmed Siddiqui and Aleeem
-            Ahmed Siddiqui, METANERDS brings together deep technical knowledge,
+          <p className="mt-6 text-xs md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
+            Founded by technology leaders Shavez Ahmed Siddiqui and Aleeem Ahmed
+            Siddiqui, METANERDS brings together deep technical knowledge,
             strategic thinking, and market insight. From emerging ventures to
             established enterprises, we help clients solve complex problems
             through tailored digital solutions.
           </p>
 
-          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-xs md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
             With a core focus on software systems design, IT consulting, and
             digital marketing services, we empower companies to not only
             adapt—but lead—in a technology-first economy.
@@ -57,7 +57,7 @@ const AboutSection = () => {
           <img
             src="/assets/cube.gif"
             alt="3D Cube"
-            className="h-[600px] w-[600px] md:h-[800px] md:w-[800px] md:ml-2 object-cover rounded-2xl"
+            className="h-[200px] w-[400px] -mt-4 md:mt-0 md:h-[800px] md:w-[800px] md:ml-2 object-cover rounded-2xl"
           />
         </div>
       </div>

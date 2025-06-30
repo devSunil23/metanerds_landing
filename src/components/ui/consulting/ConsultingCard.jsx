@@ -2,7 +2,7 @@ import React from "react";
 
 const ConsultingCard = ({ number, title, subtitle, description }) => {
   return (
-    <div className="relative flex flex-col items-center text-center text-white px-4 py-8 md:py-10 lg:py-14">
+    <div className="relative flex flex-col items-center text-center text-white px-4 py-5 md:py-10 lg:py-14">
       {/* Big number background */}
       <div
         style={{
@@ -16,13 +16,13 @@ const ConsultingCard = ({ number, title, subtitle, description }) => {
       {/* Foreground content */}
       <div className="relative z-10">
         <h3
-          className="text-3xl mt-2 md:text-4xl font-extrabold uppercase"
+          className=" mt-2 text-5xl font-extrabold uppercase"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           {title}
         </h3>
         <p
-          className="tracking-[0.3em] mb-2 text-base mt-1 text-white uppercase"
+          className="tracking-[0.3em] mb-2 text-xl mt-1 text-white uppercase"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           {subtitle}
@@ -30,7 +30,7 @@ const ConsultingCard = ({ number, title, subtitle, description }) => {
 
         <div className="h-[2px] w-16 bg-[#9498FD] mx-auto my-4 rounded-full"></div>
 
-        <p className="text-xs md:text-sm text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
+        <p className="text-sm md:text-[16px] text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
           {description}
         </p>
       </div>

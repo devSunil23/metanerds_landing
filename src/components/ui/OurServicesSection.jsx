@@ -35,7 +35,7 @@ const OurServicesSection = () => {
 
       <img
         src="/assets/right-wave.png"
-        className="absolute -right-20 -top-10 w-48 md:w-100 md:h-180 opacity-50 pointer-events-none  scale-x-[-1]"
+        className="absolute -right-32 -top-10 w-48 md:w-100 md:h-180 opacity-50 pointer-events-none  scale-x-[-1]"
         alt="decoration"
         style={{
           transform: "rotate(20.06deg)", // Adjust if rotation needed
@@ -53,7 +53,7 @@ const OurServicesSection = () => {
         <h3 className="mt-4 text-xl md:text-2xl font-semibold text-white">
           Custom Software Architecture & System Design
         </h3>
-        <p className="mt-4 text-sm md:text-base text-gray-400 leading-relaxed">
+        <p className="mt-4 text-sm md:text-[16px] text-gray-400 leading-relaxed">
           We specialize in architecting bespoke software systems tailored to
           your unique operational and strategic needs. From backend architecture
           to user-facing applications, our designs are scalable, secure, and
@@ -87,7 +87,7 @@ const OurServicesSection = () => {
       </div>
 
       {/* Quote */}
-      <div className="mt-10 flex items-center text-center relative max-w-2xl mx-auto text-sm md:text-base text-gray-300 ">
+      <div className="mt-10 flex md:px-16 items-center text-center relative max-w-2xl mx-auto text-sm md:text-[16px] text-gray-300 ">
         <img
           src="/assets/Frame 23.png"
           alt="quote"
@@ -96,7 +96,6 @@ const OurServicesSection = () => {
           className="-mt-4"
         />
         <span>
-          {" "}
           We don’t just write code—we build technology frameworks that evolve
           with your business.
         </span>

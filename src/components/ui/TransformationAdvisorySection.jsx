@@ -22,7 +22,7 @@ const services = [
 
 const TransformationAdvisorySection = () => {
   return (
-    <section className="bg-black -mt-16 text-white py-24 px-6 font-jakarta text-center">
+    <section className="bg-black -mt-18  md:-mt-16  text-white  py-12 md:py-24 px-6 md:px-42 font-jakarta text-center">
       {/* Header */}
       <div className="max-w-4xl mx-auto mb-12">
         <p className="uppercase text-sm text-gray-400 tracking-wide">

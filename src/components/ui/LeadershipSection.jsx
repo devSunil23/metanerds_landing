@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const LeadershipSection = () => {
   return (
-    <section className="relative pt-48 bg-black text-white py-12 px-6 md:px-20 lg:px-32 font-jakarta overflow-hidden">
+    <section className="relative pt-48 bg-black text-white py-12 px-6 md:px-18 lg:px-48 font-jakarta overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image

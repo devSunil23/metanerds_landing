@@ -50,7 +50,7 @@ const consultingData = [
 
 const ConsultingSection = () => {
   return (
-    <section className="bg-black overflow-hidden py-16 px-6 md:px-28 relative">
+    <section className="bg-black overflow-hidden py-6 md:py-16 px-6 md:px-28 relative">
       <img
         src="/assets/elipse_1460.png"
         alt="elipse_1460"

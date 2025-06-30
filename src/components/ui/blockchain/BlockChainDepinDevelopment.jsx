@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const BlockchainDepinDevelopment = () => {
   return (
-    <section className="bg-black text-white px-6 md:px-48 py-24">
+    <section className="bg-black text-white px-6 md:px-48 py-6 md:py-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side */}
         <div className="flex justify-center md:justify-start">
@@ -40,7 +40,7 @@ const BlockchainDepinDevelopment = () => {
             <span className=" text-[#9498FD] ml-2">Development</span>
           </h2>
 
-          <p className="text-xs md:text-sm text-[#FFFFFFCC] max-w-lg leading-relaxed">
+          <p className="text-xs md:text-[16px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
             We transform traditional infrastructure into decentralized,
             token-incentivized networks. Whether it’s smart energy grids,
             decentralized logistics, or real estate automation, we build

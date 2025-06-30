@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const BlockchainDevelopment = () => {
   return (
-    <section className="bg-black text-white px-6 md:px-48 py-24">
+    <section className="bg-black text-white px-6 md:px-48 py-6 md:py-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
         <img
           src="/assets/elipse_1460.png"
@@ -13,7 +13,7 @@ const BlockchainDevelopment = () => {
           className="absolute w-[400px] h-[400px] object-contain"
           style={{
             top: "10%",
-            left: "-30%",
+            left: "-36%",
           }}
         />
         {/* Left Side */}
@@ -38,7 +38,7 @@ const BlockchainDevelopment = () => {
             <span className="text-white -mt-4">Development</span>
           </h2>
 
-          <p className="text-xs md:text-sm text-[#FFFFFFCC] max-w-lg leading-relaxed">
+          <p className="text-xs md:text-[16px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
             We build scalable, secure blockchain ecosystems for enterprises.
             From custom Layer 1 protocols and smart contracts to NFT
             marketplaces and dApps, we engineer powerful solutions that drive

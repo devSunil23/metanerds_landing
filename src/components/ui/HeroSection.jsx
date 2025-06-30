@@ -5,7 +5,7 @@ const HeroSection = () => {
   const elipsCount = 6;
 
   return (
-    <section className="relative h-screen bg-black flex items-center justify-center text-white overflow-hidden px-4">
+    <section className="relative pb-12 md:pb-0 md:h-screen bg-black flex items-center justify-center text-white overflow-hidden px-4">
       {/* === Background Layers === */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Binary Images */}
@@ -119,9 +119,9 @@ const HeroSection = () => {
       </div>
 
       {/* === Foreground Content === */}
-      <div className="relative z-10 text-center max-w-3xl">
+      <div className="relative z-10 mt-15 md:mt-0  text-center max-w-3xl">
         <h1
-          className="text-4xl md:text-[126.34px] font-bold leading-[136.18px]"
+          className="text-4xl  md:text-[126.34px] font-bold leading-[86.18px] md:leading-[136.18px]"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           <span className="text-white">WE </span>
@@ -135,7 +135,7 @@ const HeroSection = () => {
             wordSpacing: "0.3rem",
             letterSpacing: "38%",
           }}
-          className="mt-4 tracking-widest text-2xl font-bold break-normal  uppercase"
+          className="mt-0 md:mt-4 tracking-widest text-2xl font-bold break-normal  uppercase"
         >
           What Others Imagine
         </p>
@@ -143,7 +143,7 @@ const HeroSection = () => {
           style={{
             fontFamily: "Plus Jakarta Sans",
           }}
-          className="mt-6 re text-sm md:text-[18px] text-gray-400 max-w-xl mx-auto leading-[30px]"
+          className="mt-4 md:mt-6 re text-sm md:text-[18px] text-gray-400 max-w-xl mx-auto leading-[30px]"
         >
           We help modern businesses evolve through customized software design,
           future-focused IT strategy, and full-stack digital development —

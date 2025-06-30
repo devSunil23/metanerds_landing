@@ -32,7 +32,7 @@ const strategies = [
 
 const DigitalMarketingSection = () => {
   return (
-    <section className="bg-black text-white py-12 px-6 font-jakarta relative overflow-hidden">
+    <section className="bg-black text-white py-12 px-6 md:px-16 font-jakarta relative overflow-hidden">
       <img
         src="/assets/marketing-bg.png"
         className="absolute left-40 bottom-0 w-48 md:w-100 opacity-50 pointer-events-none"
@@ -43,7 +43,7 @@ const DigitalMarketingSection = () => {
       />
       <div className="max-w-6xl mx-auto text-center">
         {/* Title and Description */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-16 relative max-w-7xl mx-auto px-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-16 relative max-w-7xl mx-auto px-4 md:px-10">
           {/* Left side */}
           <div className="md:w-[35%] text-left md:pr-6">
             <h2
@@ -62,7 +62,7 @@ const DigitalMarketingSection = () => {
 
           {/* Right side */}
           <div className="md:w-[40%] text-left md:pl-2">
-            <p className="mt-0 text-sm md:text-base text-gray-400 leading-relaxed">
+            <p className="mt-0 text-sm md:text-[16px] text-gray-400 leading-relaxed">
               In a world driven by attention and data, we help brands grow
               intelligently. Our digital marketing arm combines strategy,
               content, analytics, and performance tools to build magnetic online
@@ -72,7 +72,7 @@ const DigitalMarketingSection = () => {
         </div>
 
         {/* Strategy Cards */}
-        <div className="mt-16 md:mx-26 grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div className="mt-16 md:mx-28 grid grid-cols-1 md:grid-cols-5 gap-4">
           {strategies.map((item, index) => (
             <div
               key={index}
@@ -101,13 +101,13 @@ const DigitalMarketingSection = () => {
         </div>
 
         {/* Quote */}
-        <div className="mt-16 flex items-center text-gray-300 text-sm max-w-2xl mx-auto  relative">
+        <div className="mt-10 flex items-center md:px-20  max-w-2xl mx-auto text-sm md:text-[16px] text-gray-300 ">
           <img
             src="/assets/Frame 23.png"
             alt="quote"
             height={45}
             width={40}
-            className="-mt-4 "
+            className="-mt-4"
           />
           <span>
             We don’t just chase impressions—we build momentum that turns into
@@ -118,7 +118,7 @@ const DigitalMarketingSection = () => {
             alt="quote"
             height={45}
             width={40}
-            className="-mt-4 "
+            className="-mt-4"
           />
         </div>
       </div>

@@ -51,7 +51,7 @@ export default function CommonHero({ heading, subHeading, description }) {
         <div className="flex justify-center my-4">
           <div className="h-[1px] w-20 bg-[#9498FD]" />
         </div>
-        <p className="mt-6 text-xs md:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
+        <p className="mt-6 text-sm md:text-[16px] text-slate-300 leading-relaxed max-w-2xl mx-auto">
           {description}
         </p>
       </div>
