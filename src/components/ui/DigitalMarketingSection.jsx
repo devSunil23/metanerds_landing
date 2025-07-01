@@ -92,10 +92,10 @@ const DigitalMarketingSection = () => {
                   className="my-1"
                 />
               </div>
-              <h3 className="text-base font-semibold text-white leading-snug">
+              <p className="text-sm  text-white leading-snug">
                 {item.title}
-              </h3>
-              <p className="text-sm text-gray-300">{item.subtitle}</p>
+                <span className="ml-1">{item.subtitle}</span>
+              </p>
             </div>
           ))}
         </div>

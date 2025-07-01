@@ -22,7 +22,7 @@ const services = [
 
 const OurServicesSection = () => {
   return (
-    <section className="relative -mt-16 bg-black text-white py-24 px-6 font-jakarta overflow-hidden">
+    <section className="relative -mt-16 md:-mt-24 bg-black text-white py-24 px-6 font-jakarta overflow-hidden">
       {/* Background decorations (optional waves if you want to use images) */}
       <img
         src="/assets/left-wave.png"
@@ -74,12 +74,12 @@ const OurServicesSection = () => {
           >
             {/* Circle Number */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-sm font-bold text-white">
+              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-[16px] font-bold text-white">
                 #{service.id}
               </div>
             </div>
 
-            <p className="mt-3 text-sm  font-[500] text-[#FFFFFF]">
+            <p className="mt-3 text-[16px]  font-[500] text-[#FFFFFF]">
               {service.title}
             </p>
           </div>

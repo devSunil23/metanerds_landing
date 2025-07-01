@@ -13,9 +13,8 @@ const AboutSection = () => {
             className="text-4xl md:text-6xl font-extrabold uppercase leading-tight text-center md:text-left"
           >
             ABOUT
-            <br />
             <span
-              className="bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent"
+              className="bg-gradient-to-r pl-4 from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent"
               style={{ fontFamily: '"Agency FB", sans-serif' }}
             >
               METANERDS

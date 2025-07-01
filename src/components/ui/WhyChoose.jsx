@@ -64,10 +64,10 @@ const WhyChoose = () => {
               } `}
             >
               <div>
-                <h3 className="text-sm md:text-[16px] font-lighterbold text-[#9498FD]">
+                <h3 className="text-sm md:text-lg font-lighterbold text-[#9498FD]">
                   {item.title}
                 </h3>
-                <p className="text-xs leading-[18px] md:text-[12px] text-[#FFFFFF] mt-2 font-normal">
+                <p className="text-xs leading-[18px] md:text-sm text-[#FFFFFF] mt-2 font-normal">
                   {item.description}
                 </p>
               </div>

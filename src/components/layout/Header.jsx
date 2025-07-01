@@ -12,7 +12,7 @@ export default function Header() {
     <header className="w-full fixed top-0 z-50 bg-gradient-to-t from-[#EDF6FF] to-[#F5E3FC]">
       <div className="h-[14px] w-full bg-[#635AD9] rounded-b-[30px]" />
 
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-42 py-5  md:py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-16 py-5  md:py-4">
         {/* Logo */}
         {/* Logo with Image */}
         <Link href="/">
@@ -26,7 +26,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-3 items-center text-sm font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
+        <nav className="hidden md:flex gap-3 items-center text-[16px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
           <Link
             href="/blockchain"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"

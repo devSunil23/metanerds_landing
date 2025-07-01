@@ -70,12 +70,10 @@ const TransformationAdvisorySection = () => {
                   : "right-0 bg-gradient-to-l from-black to-transparent"
               }`}
             ></div>
-            <h3 className="text-lg font-semibold text-[#9498FD] mb-2">
+            <h3 className="text-xl font-semibold text-[#9498FD] mb-2">
               {service.title}
             </h3>
-            <p className="text-base text-[#FFFFFFCC] mb-4">
-              {service.subtitle}
-            </p>
+            <p className="text-lg text-[#FFFFFFCC] mb-4">{service.subtitle}</p>
             <div className="flex justify-center">
               <div className="w-8 h-8 rounded-full border border-[#FFFFFF] flex items-center justify-center">
                 <Icon icon="uil:play" className="text-white text-sm" />

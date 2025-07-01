@@ -125,7 +125,7 @@ const HeroSection = () => {
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           <span className="text-white">WE </span>
-          <span className="bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent shadow-[inset_0px_3.32px_3.32px_0px_#00000040]">
+          <span className="relative bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent shadow-[inset_0px_3.32px_3.32px_0px_#00000040] noise-effect">
             BUILD
           </span>
         </h1>

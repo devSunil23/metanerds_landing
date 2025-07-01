@@ -26,10 +26,10 @@ const Footer = () => {
               height={40}
             />
           </div>
-          <p className="text-[#D9D9D9] text-sm font-extralight">
+          <p className="text-[#D9D9D9] text-base font-extralight">
             Let’s Create Something That Lasts.
           </p>
-          <p className="text-[12px] text-[#D9D9D9] mt-4 font-extralight">
+          <p className="text-sm text-[#D9D9D9] mt-4 font-extralight">
             Looking to elevate your technology infrastructure, modernize your
             digital strategy, or build something extraordinary? We're here to
             lead the way
@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="h-[1px] w-6 bg-[#D9D9D9] shrink-0" />
 
             {/* Follow on text */}
-            <div className="text-sm text-[#D9D9D9] whitespace-nowrap">
+            <div className="text-base text-[#D9D9D9] whitespace-nowrap">
               Follow on
             </div>
 
@@ -66,8 +66,8 @@ const Footer = () => {
               />
               <Icon
                 icon="pajamas:twitter"
-                width="16"
-                height="16"
+                width="20"
+                height="20"
                 style={{ color: "#219BE4" }}
               />
 
@@ -90,12 +90,12 @@ const Footer = () => {
 
         {/* Column 2 */}
         <div className="md:mt-8">
-          <h3 className="text-base font-semibold  w-fit">Our Services</h3>
+          <h3 className="text-lg font-semibold  w-fit">Our Services</h3>
           <div className="flex items-center my-2  gap-1">
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <ul className="text-[12px]  space-y-2 mt-6">
+          <ul className="text-sm  space-y-2 mt-6">
             {[
               "Digital Marketing",
               "Web Development",
@@ -109,7 +109,7 @@ const Footer = () => {
               >
                 <Icon
                   icon="mdi:chevron-double-right"
-                  className="text-[#D9D9D9] text-[12px] "
+                  className="text-[#D9D9D9] text-sm "
                 />
                 {item}
               </li>
@@ -119,37 +119,35 @@ const Footer = () => {
 
         {/* Column 3 */}
         <div className="md:mt-8">
-          <h3 className="text-base font-semibold  w-fit">Office Address</h3>
+          <h3 className="text-lg font-semibold  w-fit">Office Address</h3>
           <div className="flex items-center my-2  gap-1">
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-[12px] text-slate-300 mb-4 md:mt-5">
+          <p className="text-sm text-slate-300 mb-4 md:mt-5">
             DSO-IFZA, IFZA Properties, Dubai
             <br />
             Silicon Oasis, UAE
           </p>
 
-          <h3 className="text-base font-semibold w-fit">Email</h3>
+          <h3 className="text-lg font-semibold w-fit">Email</h3>
           <div className="flex items-center my-2  gap-1">
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-[12px] text-slate-300">metanerds42@gmail.com</p>
+          <p className="text-sm text-slate-300">metanerds42@gmail.com</p>
         </div>
 
         {/* Column 4 */}
         <div className="md:mt-8">
-          <h3 className="text-base font-semibold  w-fit">
-            License No. : 56142
-          </h3>
+          <h3 className="text-lg font-semibold  w-fit">License No. : 56142</h3>
 
           <div className="flex items-center my-2  gap-1">
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
 
-          <p className="text-[12px] text-slate-300 mt-4 mb-6">
+          <p className="text-sm text-slate-300 mt-4 mb-6">
             Issued by Dubai Integrated
             <br />
             Economic Zones Authority
@@ -168,8 +166,10 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-700 mt-12 pt-6 text-[12px] text-[#D9D9D9] text-center flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto">
-        <p className="mb-2 md:mb-0">© All Copyright 2025 by Metanerds</p>
+      <div className="border-t border-slate-700 mt-12 pt-6 text-sm text-[#D9D9D9] text-center flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto">
+        <p className="mb-2 md:mb-0">
+          © 2025 | Metanerds | All Rights Reserved.
+        </p>
         <div className="flex gap-6">
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>

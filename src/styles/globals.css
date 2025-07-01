@@ -44,3 +44,20 @@ body {
   -webkit-text-stroke: 1px #3c3c50; /* Stroke color */
   color: transparent; /* Make text fill transparent */
 }
+
+/* in globals.css or <style jsx global> */
+@layer utilities {
+  .noise-effect::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-radial-gradient(
+      #00000040 0px,
+      #00000040 1.58px,
+      transparent 1.58px,
+      transparent 3px
+    );
+    opacity: 0.75;
+    pointer-events: none;
+  }
+}

@@ -28,15 +28,15 @@ const LeadershipSection = () => {
           </h2>
 
           <div className="my-8">
-            <h3 className="text-xl md:text-2xl font-semibold text-[#A7AAFF]">
+            <h3 className="text-xl md:text-3xl font-semibold text-[#A7AAFF]">
               Shavez Ahmed Siddiqui
             </h3>
-            <p className="my-2 text-sm md:text-sm font-semibold italic text-white">
+            <p className="my-2 text-sm md:text-base font-semibold italic text-white">
               Managing Partner – Digital Systems & Fintech Innovation
             </p>
           </div>
 
-          <ul className="list-disc list-inside mt-4 text-sm text-white/80 font-extralight leading-relaxed">
+          <ul className="list-disc md:ml-3 mt-4 text-sm  md:text-base text-white/80 font-extralight leading-relaxed">
             <li>
               Brings a decade of experience building high-integrity platforms
               across finance and tech sectors.
