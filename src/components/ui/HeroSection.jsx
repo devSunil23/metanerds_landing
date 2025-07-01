@@ -121,13 +121,18 @@ const HeroSection = () => {
       {/* === Foreground Content === */}
       <div className="relative z-10 mt-15 md:mt-0  text-center max-w-3xl">
         <h1
-          className="text-4xl  md:text-[126.34px] font-bold leading-[86.18px] md:leading-[136.18px]"
+          className="text-7xl flex items-center justify-center gap-4 md:gap-6 md:text-[122.34px] font-bold leading-[86.18px] md:leading-[136.18px]"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           <span className="text-white">WE </span>
-          <span className="relative bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent shadow-[inset_0px_3.32px_3.32px_0px_#00000040] noise-effect">
+          <img
+            src="/assets/Build.png"
+            alt="build"
+            className="md:w-60 w-35 h-auto"
+          />
+          {/* <span className="relative bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent shadow-[inset_0px_3.32px_3.32px_0px_#00000040]">
             BUILD
-          </span>
+          </span> */}
         </h1>
         <p
           style={{
