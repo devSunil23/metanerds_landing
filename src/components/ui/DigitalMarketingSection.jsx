@@ -92,7 +92,7 @@ const DigitalMarketingSection = () => {
                   className="my-1"
                 />
               </div>
-              <p className="text-sm  text-white leading-snug">
+              <p className="text-[15px]  text-white leading-snug">
                 {item.title}
                 <span className="ml-1">{item.subtitle}</span>
               </p>
