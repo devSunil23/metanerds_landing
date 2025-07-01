@@ -1,3 +1,5 @@
+"use client";
+import { openGmailCompose } from "@/utils/helperFunction";
 import React from "react";
 
 const HeroSection = () => {
@@ -158,6 +160,7 @@ const HeroSection = () => {
           style={{
             fontFamily: "Plus Jakarta Sans",
           }}
+          onClick={openGmailCompose}
           className="mt-8 px-6 py-2 text-white font-semibold relative z-10 transition 
     rounded-md bg-gradient-to-r from-[#7F7EFE] to-[#4B2FEA]
     before:content-[''] before:absolute before:inset-0 before:rounded-md before:p-[0.33px]

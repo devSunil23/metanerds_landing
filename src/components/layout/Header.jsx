@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import Image from "next/image";
+import { openGmailCompose } from "@/utils/helperFunction";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -57,7 +58,11 @@ export default function Header() {
           >
             About Us
           </Link>
-          <button className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200">
+
+          <button
+            onClick={openGmailCompose}
+            className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200"
+          >
             WORK WITH US
           </button>
         </nav>
@@ -107,7 +112,11 @@ export default function Header() {
             >
               About Us
             </Link>
-            <button className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200">
+
+            <button
+              onClick={openGmailCompose}
+              className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200"
+            >
               WORK WITH US
             </button>
           </nav>

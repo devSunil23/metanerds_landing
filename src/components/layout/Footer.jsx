@@ -1,8 +1,12 @@
+"use client";
+import { openGmailCompose } from "@/utils/helperFunction";
 import { Icon } from "@iconify/react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
+  const router = useRouter();
   return (
     <footer className="bg-[#14032B] relative text-white pt-20 pb-10 px-6 md:px-42 font-jakarta">
       <img
@@ -37,10 +41,16 @@ const Footer = () => {
 
           {/* Contact Button */}
           <div className="mt-6 flex items-center gap-2">
-            <button className="bg-white text-[#5D5DFD] text-[12px] font-medium px-4 py-2 rounded-full">
+            <button
+              onClick={openGmailCompose}
+              className="bg-white text-[#5D5DFD] text-[12px] font-medium px-4 py-2 rounded-full"
+            >
               CONTACT US
             </button>
-            <button className="bg-[#B0B3FF] p-2 rounded-full">
+            <button
+              onClick={openGmailCompose}
+              className="bg-[#B0B3FF] p-2 rounded-full"
+            >
               <Icon icon="mdi:arrow-top-right" className="text-white text-lg" />
             </button>
           </div>
@@ -59,30 +69,46 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex items-center gap-2">
               <Icon
-                icon="ri:facebook-fill"
+                icon="logos:telegram"
                 width="20"
                 height="20"
-                style={{ color: "#D9D9D9" }}
+                className="cursor-pointer"
+                onClick={() => router.push("https://t.me/metanerds")}
               />
               <Icon
                 icon="pajamas:twitter"
+                onClick={() =>
+                  router.push(
+                    "https://x.com/Metanerds42?t=8nQxhUnwOA0M5Z8uFdhORg&s=09"
+                  )
+                }
+                className="cursor-pointer"
                 width="20"
                 height="20"
                 style={{ color: "#219BE4" }}
               />
+              <Icon
+                icon="skill-icons:instagram"
+                width="20"
+                height="20"
+                onClick={() =>
+                  router.push(
+                    "https://www.instagram.com/metan.erds?igsh=MXg3ZGs3NWxza3V1eA=="
+                  )
+                }
+                className="cursor-pointer"
+              />
 
               <Icon
-                icon="flowbite:linkedin-solid"
-                width="20"
-                height="20"
-                style={{ color: "#D9D9D9" }}
-              />
-              <Icon
-                icon="mdi:youtube"
-                className="text-white text-xl"
-                width="20"
-                height="20"
-                style={{ color: "#D9D9D9" }}
+                onClick={() =>
+                  router.push(
+                    "https://youtube.com/@metanerds?si=4LILHk1NxAV0n1MA"
+                  )
+                }
+                icon="logos:youtube-icon"
+                className="cursor-pointer"
+                width="26"
+                height="26"
               />
             </div>
           </div>
@@ -97,21 +123,33 @@ const Footer = () => {
           </div>
           <ul className="text-sm  space-y-2 mt-6">
             {[
-              "Digital Marketing",
-              "Web Development",
-              "SEO optimized",
-              "App Development",
-              "Email Marketing",
+              {
+                name: "Blockchain",
+                link: "/blockchain",
+              },
+              {
+                name: "AI",
+                link: "/ai",
+              },
+              {
+                name: "Consulting",
+                link: "/consulting",
+              },
+              {
+                name: "Web3",
+                link: "/web3",
+              },
             ].map((item, index) => (
               <li
+                onClick={() => router.push(item?.link)}
                 key={index}
-                className="flex text-[#D9D9D9] items-center gap-2"
+                className="flex text-[#D9D9D9] items-center gap-2 cursor-pointer"
               >
                 <Icon
                   icon="mdi:chevron-double-right"
                   className="text-[#D9D9D9] text-sm "
                 />
-                {item}
+                {item?.name}
               </li>
             ))}
           </ul>
@@ -135,7 +173,7 @@ const Footer = () => {
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-sm text-slate-300">metanerds42@gmail.com</p>
+          <p className="text-sm text-slate-300">contact@metanerds.tech</p>
         </div>
 
         {/* Column 4 */}
@@ -155,10 +193,16 @@ const Footer = () => {
 
           {/* Book Consultation */}
           <div className="flex items-center gap-2">
-            <button className="bg-white whitespace-nowrap text-[#5D5DFD] text-[12px] font-medium px-4 py-2 rounded-full">
+            <button
+              onClick={openGmailCompose}
+              className="bg-white whitespace-nowrap text-[#5D5DFD] text-[12px] font-medium px-4 py-2 rounded-full"
+            >
               BOOK A CONSULTATION
             </button>
-            <button className="bg-[#B0B3FF] p-2 rounded-full">
+            <button
+              onClick={openGmailCompose}
+              className="bg-[#B0B3FF] p-2 rounded-full"
+            >
               <Icon icon="mdi:arrow-top-right" className="text-white text-lg" />
             </button>
           </div>
@@ -171,8 +215,8 @@ const Footer = () => {
           © 2025 | Metanerds | All Rights Reserved.
         </p>
         <div className="flex gap-6">
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
+          <a href="/terms-conditions">Terms & Conditions</a>
+          <a href="/privacy-policy">Privacy Policy</a>
         </div>
       </div>
     </footer>
