@@ -34,7 +34,7 @@ const Footer = () => {
           <p className="text-[#D9D9D9] text-[14px] md:text-[18px] font-extralight">
             Let’s Create Something That Lasts.
           </p>
-          <p className=" text-[14px] text-justify md:text-[18px] text-[#D9D9D9] mt-4 font-extralight">
+          <p className=" text-[14px]  md:text-[18px] text-[#D9D9D9] mt-4 font-extralight">
             Looking to elevate your technology infrastructure, modernize your
             digital strategy, or build something extraordinary? We're here to
             lead the way.
@@ -122,7 +122,7 @@ const Footer = () => {
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
           <div className="flex flex-col">
-            <ul className=" text-[14px] md:text-[18px]  space-y-4  md:space-y-2 mt-6">
+            <ul className=" text-[14px] md:text-[18px]  space-y-4  md:space-y-2 mt-4">
               {[
                 {
                   name: "Blockchain",
