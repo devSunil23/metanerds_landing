@@ -185,7 +185,7 @@ const Footer = () => {
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-[14px] md:text-[18px]text-slate-300 mb-4 md:mt-5">
+          <p className="text-[14px] md:text-[18px] text-slate-300 mb-4 md:mt-5">
             DSO-IFZA, IFZA Properties, Dubai
             <br />
             Silicon Oasis, UAE
@@ -225,7 +225,7 @@ const Footer = () => {
         <div className="md:mt-8">
           {/* hide this in small devices */}
           <div className="hidden md:block">
-            <h3 className="text-[14px] md:text-[18px]font-semibold  w-fit">
+            <h3 className="text-[14px] md:text-[18px] font-semibold  w-fit">
               License No. : 56142
             </h3>
 
@@ -234,7 +234,7 @@ const Footer = () => {
               <div className="h-[2px] w-14 bg-[#FFFFFF]" />
             </div>
 
-            <p className="text-[14px] md:text-[18px]text-slate-300 mt-4 mb-6">
+            <p className="text-[14px] md:text-[18px] text-slate-300 mt-4 mb-6">
               Issued by Dubai Integrated
               <br />
               Economic Zones Authority
