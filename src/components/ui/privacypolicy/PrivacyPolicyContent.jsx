@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PrivacyPolicyContent() {
   return (
-    <div className="bg-black px-6 md:px-40 py-12 mx-auto text-gray-200 leading-relaxed space-y-6 text-[18px]">
+    <div className="bg-black px-6 md:px-40 py-12 mx-auto text-gray-200 leading-relaxed space-y-6 text-sm md:text-[18px]">
       <p>
         <strong>Effective Date:</strong> July 1, 2025
       </p>
@@ -34,13 +34,15 @@ export default function PrivacyPolicyContent() {
         .
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Consent</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Consent
+      </h2>
       <p>
         By using our website, you hereby consent to our Privacy Policy and agree
         to its terms.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Information We Collect
       </h2>
       <p>We may collect personal information when you:</p>
@@ -71,7 +73,7 @@ export default function PrivacyPolicyContent() {
         of our website.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px]font-semibold text-white">
         How We Use Your Information
       </h2>
       <ul className="list-disc pl-6">
@@ -83,7 +85,9 @@ export default function PrivacyPolicyContent() {
         <li>Detect and prevent fraud or misuse</li>
       </ul>
 
-      <h2 className="text-xl font-semibold text-white">Log Files</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Log Files
+      </h2>
       <p>
         MetaNerds.tech follows standard procedures for using log files. These
         files log visitors when they visit websites. The information collected
@@ -93,7 +97,9 @@ export default function PrivacyPolicyContent() {
         tracking.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Cookies</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Cookies
+      </h2>
       <p>
         Our website may use cookies to enhance your browsing experience. You can
         choose to disable cookies through your browser settings. Note that
@@ -101,7 +107,7 @@ export default function PrivacyPolicyContent() {
         site.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Data Protection Rights (GDPR & CCPA)
       </h2>
       <p>
@@ -126,7 +132,9 @@ export default function PrivacyPolicyContent() {
         . We will respond within 30 days.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Children's Privacy</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Children's Privacy
+      </h2>
       <p>
         MetaNerds.tech does not knowingly collect any personal information from
         children under the age of 13. If you believe your child has provided
@@ -134,7 +142,7 @@ export default function PrivacyPolicyContent() {
         to remove it from our records.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Changes to This Privacy Policy
       </h2>
       <p>

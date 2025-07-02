@@ -10,25 +10,29 @@ const AboutSection = () => {
             style={{
               fontFamily: '"Agency FB", sans-serif',
             }}
-            className="text-4xl md:text-6xl font-extrabold uppercase leading-tight text-center md:text-left"
+            className="text-4xl flex items-center justify-start md:text-6xl font-extrabold uppercase leading-tight text-center md:text-left"
           >
-            ABOUT
-            <span
-              className="bg-gradient-to-r pl-4 from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent"
+            <span>ABOUT</span>
+            <div
+              className="pl-4 mt-[5px] md:mt-0"
               style={{ fontFamily: '"Agency FB", sans-serif' }}
             >
-              METANERDS
-            </span>
+              <span className="bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent">
+                METANERDS
+              </span>
+              <div className="mt-1 md:hidden h-[2px] w-36 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded ml-auto" />
+            </div>
           </h2>
 
           {/* Decorative line */}
-          <div className="mt-3 mb-4 h-[2px] w-24 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] mx-auto md:mx-0 rounded" />
 
-          <h3 className="mt-6 text-xl leading-[26px]  md:text-2xl font-semibold text-gray-200 text-center md:text-left">
+          <div className="mt-3 hidden md:flex mb-4 h-[2px] w-24 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] mx-auto md:mx-0 rounded" />
+
+          <h3 className="mt-6 text-xl leading-[26px]  md:text-2xl font-semibold text-gray-200 text-left md:text-center md:text-left">
             Innovating at the Intersection of <br /> Technology and Business
           </h3>
 
-          <p className="mt-6 text-xs eading-relaxed  md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-sm eading-relaxed  md:text-[18px] text-gray-400 leading-relaxed text-left md:text-center md:text-justify">
             METANERDS INFOLABS is a specialized consulting firm headquartered in
             Dubai Silicon Oasis, operating within the thriving IFZA ecosystem.
             We serve as a strategic partner to organizations seeking to embrace
@@ -36,7 +40,7 @@ const AboutSection = () => {
             vision.
           </p>
 
-          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-sm md:text-[18px] text-gray-400 leading-relaxed text-left md:text-center md:text-justify">
             Founded by technology leaders Shavez Ahmed Siddiqui and Aleeem Ahmed
             Siddiqui, METANERDS brings together deep technical knowledge,
             strategic thinking, and market insight. From emerging ventures to
@@ -44,7 +48,7 @@ const AboutSection = () => {
             through tailored digital solutions.
           </p>
 
-          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-sm md:text-[18px] text-gray-400 leading-relaxed text-left md:text-center md:text-justify">
             With a core focus on software systems design, IT consulting, and
             digital marketing services, we empower companies to not only
             adapt—but lead—in a technology-first economy.
@@ -52,7 +56,7 @@ const AboutSection = () => {
         </div>
 
         {/* === RIGHT IMAGE === */}
-        <div className=" flex justify-center">
+        <div className="hidden md:flex justify-center">
           <img
             src="/assets/cube.gif"
             alt="3D Cube"

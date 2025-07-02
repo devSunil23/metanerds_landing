@@ -22,10 +22,10 @@ const services = [
 
 const TransformationAdvisorySection = () => {
   return (
-    <section className="bg-black -mt-18  md:-mt-16  text-white  py-12 md:py-24 px-6 md:px-42 font-jakarta text-center">
+    <section className="bg-black -mt-12  md:-mt-16  text-white  py-12 md:py-24 px-6 md:px-42 font-jakarta text-left md:text-center">
       {/* Header */}
       <div className="max-w-4xl mx-auto mb-12">
-        <p className="uppercase text-[18px] text-gray-400 tracking-wide">
+        <p className="uppercase text-sm md:text-[18px] text-gray-400 tracking-wide">
           Strategic IT Consulting &
         </p>
         <h2
@@ -36,7 +36,7 @@ const TransformationAdvisorySection = () => {
             TRANSFORMATION ADVISORY
           </span>
         </h2>
-        <p className="mt-6 text-xs md:text-[18px] text-[#FFFFFFCC] leading-relaxed">
+        <p className="mt-6 text-sm md:text-[18px] text-[#FFFFFFCC] leading-relaxed">
           Technology is only as effective as the strategy behind it. Our
           consulting practice is focused on helping businesses modernize their
           infrastructure, align technology with business goals, and stay
@@ -56,7 +56,7 @@ const TransformationAdvisorySection = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className={`p-8 rounded-4xl    shadow-md duration-300 ease-in-out  ${
+            className={`p-8 rounded-4xl text-center   shadow-md duration-300 ease-in-out  ${
               index % 2 === 0
                 ? "bg-gradient-to-r border border-[0.5px] border-[rgba(255,255,255,0.15)] from-[#000000] to-[#9498FD73]"
                 : "bg-gradient-to-l border border-[0.5px] border-[rgba(255,255,255,0.15)] from-[#000000] to-[#9498FD73]"
@@ -70,10 +70,10 @@ const TransformationAdvisorySection = () => {
                   : "right-0 bg-gradient-to-l from-black to-transparent"
               }`}
             ></div>
-            <h3 className="text-[18px] font-semibold text-[#9498FD] mb-2">
+            <h3 className="text-sm md:text-[18px] font-semibold text-[#9498FD] mb-2">
               {service.title}
             </h3>
-            <p className="text-[18px] text-[#FFFFFFCC] mb-4">
+            <p className="text-sm md:text-[18px] text-[#FFFFFFCC] mb-4">
               {service.subtitle}
             </p>
             <div className="flex justify-center">

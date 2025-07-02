@@ -35,7 +35,7 @@ const BlockchainIdentity = () => {
             <span className="text-white">Management</span>
           </h2>
 
-          <p className="text-xs md:text-[18px] text-[#FFFFFFCC] mt-4 leading-relaxed">
+          <p className="text-sm md:text-[18px] text-[#FFFFFFCC] mt-4 leading-relaxed">
             Secure digital identity using blockchain enables users to control
             their data. Our identity systems are tamper-proof, decentralized,
             and fully interoperable—ideal for banking, healthcare, government,

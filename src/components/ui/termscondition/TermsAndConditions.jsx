@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TermsConditionsContent() {
   return (
-    <div className="bg-black  px-6 md:px-40 py-12 mx-auto text-gray-200 leading-relaxed text-[18px] space-y-6">
+    <div className="bg-black  px-6 md:px-40 py-12 mx-auto text-gray-200 leading-relaxed text-sm md:text-[18px] space-y-6">
       <p>
         These Website Standard Terms and Conditions written on this page shall
         govern your use of our website,
@@ -29,7 +29,7 @@ export default function TermsConditionsContent() {
         this Website.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Intellectual Property Rights
       </h2>
       <p>
@@ -41,7 +41,9 @@ export default function TermsConditionsContent() {
         content contained on this Website.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Restrictions</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Restrictions
+      </h2>
       <p>You are specifically restricted from:</p>
       <ul className="list-disc pl-6">
         <li>Republishing Website material elsewhere</li>
@@ -66,7 +68,9 @@ export default function TermsConditionsContent() {
         secure.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Your Content</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Your Content
+      </h2>
       <p>
         “Your Content” refers to any text, images, audio, video, or other
         materials you choose to display on this Website.
@@ -85,7 +89,9 @@ export default function TermsConditionsContent() {
         this Website at any time without notice.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">No Warranties</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        No Warranties
+      </h2>
       <p>
         This Website is provided “as is,” with all faults, and MetaNerds.tech
         makes no express or implied representations or warranties of any kind
@@ -94,7 +100,7 @@ export default function TermsConditionsContent() {
         advice.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Limitation of Liability
       </h2>
       <p>
@@ -104,42 +110,52 @@ export default function TermsConditionsContent() {
         limitation, indirect, consequential, or special damages.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Indemnification</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Indemnification
+      </h2>
       <p>
         You agree to indemnify MetaNerds.tech to the fullest extent against any
         and all liabilities, damages, claims, costs, and expenses arising from
         your breach of any of these Terms.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Severability</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Severability
+      </h2>
       <p>
         If any provision of these Terms is found to be invalid under applicable
         law, that provision shall be removed without affecting the remaining
         provisions.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Variation of Terms</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Variation of Terms
+      </h2>
       <p>
         MetaNerds.tech may revise these Terms at any time. By using this
         Website, you are expected to review these Terms regularly to stay
         informed of any changes.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Assignment</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Assignment
+      </h2>
       <p>
         MetaNerds.tech is allowed to assign, transfer, or subcontract its rights
         and obligations under these Terms without notice. You may not assign or
         transfer your rights or obligations under these Terms.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">Entire Agreement</h2>
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
+        Entire Agreement
+      </h2>
       <p>
         These Terms constitute the entire agreement between MetaNerds.tech and
         you in relation to your use of this Website and supersede all prior
         agreements and understandings.
       </p>
 
-      <h2 className="text-xl font-semibold text-white">
+      <h2 className="text-sm md:text-[18px] font-semibold text-white">
         Governing Law & Jurisdiction
       </h2>
       <p>

@@ -22,12 +22,13 @@ export default function Header() {
             alt="Metanerds Logo"
             width={160}
             height={40}
+            className="width-[100px] md:width-[160px]"
             priority
           />
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-3 items-center text-[18px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
+        <nav className="hidden md:flex justify-between gap-3 items-center text-[18px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
           <Link
             href="/blockchain"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
@@ -67,6 +68,12 @@ export default function Header() {
           </button>
         </nav>
 
+        <button
+          onClick={openGmailCompose}
+          className="md:px-6 px-3 py-2 text-xs md:text-base flex md:hidden bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200"
+        >
+          WORK WITH US
+        </button>
         {/* Mobile Hamburger */}
         <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
           <Icon icon="mdi:menu" className="text-2xl text-[#17012C]" />
@@ -112,13 +119,6 @@ export default function Header() {
             >
               About Us
             </Link>
-
-            <button
-              onClick={openGmailCompose}
-              className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200"
-            >
-              WORK WITH US
-            </button>
           </nav>
         </div>
       )}

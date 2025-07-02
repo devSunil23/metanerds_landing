@@ -17,9 +17,9 @@ const LeadershipSection = () => {
       </div>
 
       {/* Foreground Content */}
-      <div className="relative z-10 max-w-7xl mx-auto -mt-30 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+      <div className="relative z-10 max-w-7xl mx-auto -mt-30 flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left Content */}
-        <div className="w-full md:w-1/2 text-left">
+        <div className="w-full -mt-8 md:mt-0 md:w-1/2 text-left">
           <h2
             className="text-3xl md:text-5xl font-extrabold uppercase mb-4"
             style={{ fontFamily: '"Agency FB", sans-serif' }}
@@ -36,7 +36,7 @@ const LeadershipSection = () => {
             </p>
           </div>
 
-          <ul className="list-disc md:ml-3 mt-4 text-sm  md:text-[18px] text-white/80 font-extralight leading-relaxed">
+          <ul className="list-disc ml-3 mt-4 text-sm  md:text-[18px] text-white/80 font-extralight leading-relaxed">
             <li>
               Brings a decade of experience building high-integrity platforms
               across finance and tech sectors.

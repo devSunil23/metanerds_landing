@@ -40,7 +40,7 @@ const BlockchainDepinDevelopment = () => {
             <span className=" text-[#9498FD] ml-2">Development</span>
           </h2>
 
-          <p className="text-xs md:text-[18px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
+          <p className="text-sm md:text-[18px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
             We transform traditional infrastructure into decentralized,
             token-incentivized networks. Whether it’s smart energy grids,
             decentralized logistics, or real estate automation, we build

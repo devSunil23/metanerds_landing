@@ -22,11 +22,11 @@ const services = [
 
 const OurServicesSection = () => {
   return (
-    <section className="relative -mt-16 md:-mt-24 bg-black text-white py-24 px-6 font-jakarta overflow-hidden">
+    <section className="relative -mt-6 md:-mt-24 bg-black text-white py-24 px-6 font-jakarta overflow-hidden">
       {/* Background decorations (optional waves if you want to use images) */}
       <img
         src="/assets/left-wave.png"
-        className="absolute -left-30 bottom-0 w-48 md:w-80 md:h-180 opacity-50 pointer-events-none scale-x-[1] scale-y-[-1]"
+        className="absolute rotate-[20.06deg] -left-12 md:-left-30 bottom-40 md:bottom-0 w-48 md:w-80 md:h-180 opacity-50 pointer-events-none scale-x-[1] scale-y-[-1]"
         alt="decoration"
         style={{
           transform: "rotate(20.06deg)", // Adjust if rotation needed
@@ -35,7 +35,7 @@ const OurServicesSection = () => {
 
       <img
         src="/assets/right-wave.png"
-        className="absolute -right-32 -top-10 w-48 md:w-100 md:h-180 opacity-50 pointer-events-none  scale-x-[-1]"
+        className="absolute  -right-14 md:-right-32 top-90 md:-top-10 w-48 md:w-100 md:h-180 opacity-50 pointer-events-none  scale-x-[-1]"
         alt="decoration"
         style={{
           transform: "rotate(20.06deg)", // Adjust if rotation needed
@@ -43,9 +43,17 @@ const OurServicesSection = () => {
       />
 
       {/* Header */}
-      <div className="text-center max-w-3xl mx-auto">
+      <div className="text-left md:text-center max-w-3xl mx-auto">
+        {/* // small devices */}
         <h2
-          className="text-4xl md:text-6xl font-extrabold uppercase"
+          style={{ fontFamily: '"Agency FB", sans-serif' }}
+          className="bg-gradient-to-r block md:hidden from-[#7C7AFD] to-[#4B30EA] bg-clip-text text-transparent text-4xl md:text-6xl font-extrabold uppercase"
+        >
+          OUR SERVICES
+        </h2>
+        {/* // large devices */}
+        <h2
+          className="text-4xl hidden md:block md:text-6xl font-extrabold uppercase"
           style={{ fontFamily: '"Agency FB", sans-serif' }}
         >
           OUR SERVICES
@@ -70,16 +78,16 @@ const OurServicesSection = () => {
            bg-gradient-to-b from-[rgba(0,0,0,0.31)] to-[rgba(148,152,253,0.31)]
            border border-[0.5px]
            border-[rgba(255,255,255,0.15)]
-           backdrop-blur-[31.55px] shadow-md"
+          backdrop-blur-[11.55px] md:backdrop-blur-[31.55px] shadow-md"
           >
             {/* Circle Number */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-[18px] font-bold text-white">
+              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-[14px] md:text-[18px] font-bold text-white">
                 #{service.id}
               </div>
             </div>
 
-            <p className="mt-3 text-[18px]  font-[500] text-[#FFFFFF]">
+            <p className="mt-3 text-sm md:text-[18px]  font-[500] text-[#FFFFFF]">
               {service.title}
             </p>
           </div>
