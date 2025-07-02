@@ -33,7 +33,7 @@ const BlockChainAbstraction = () => {
             <span className="text-white">ABSTRACTION</span>
           </h2>
 
-          <p className="text-xs md:text-[16px] text-[#FFFFFFCC] mt-4 leading-relaxed">
+          <p className="text-xs md:text-[18px] text-[#FFFFFFCC] mt-4 leading-relaxed">
             Enable seamless interaction across blockchains with a unified
             experience. We remove the complexity of multiple chains, allowing
             apps to access liquidity, data, and services from any chain without

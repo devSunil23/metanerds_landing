@@ -27,7 +27,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-3 items-center text-[16px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
+        <nav className="hidden md:flex gap-3 items-center text-[18px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
           <Link
             href="/blockchain"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"

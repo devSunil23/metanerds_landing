@@ -28,7 +28,7 @@ const AboutSection = () => {
             Innovating at the Intersection of <br /> Technology and Business
           </h3>
 
-          <p className="mt-6 text-xs eading-relaxed  md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-xs eading-relaxed  md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
             METANERDS INFOLABS is a specialized consulting firm headquartered in
             Dubai Silicon Oasis, operating within the thriving IFZA ecosystem.
             We serve as a strategic partner to organizations seeking to embrace
@@ -36,7 +36,7 @@ const AboutSection = () => {
             vision.
           </p>
 
-          <p className="mt-6 text-xs md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
             Founded by technology leaders Shavez Ahmed Siddiqui and Aleeem Ahmed
             Siddiqui, METANERDS brings together deep technical knowledge,
             strategic thinking, and market insight. From emerging ventures to
@@ -44,7 +44,7 @@ const AboutSection = () => {
             through tailored digital solutions.
           </p>
 
-          <p className="mt-6 text-xs md:text-[16px] text-gray-400 leading-relaxed text-center md:text-justify">
+          <p className="mt-6 text-xs md:text-[18px] text-gray-400 leading-relaxed text-center md:text-justify">
             With a core focus on software systems design, IT consulting, and
             digital marketing services, we empower companies to not only
             adapt—but lead—in a technology-first economy.

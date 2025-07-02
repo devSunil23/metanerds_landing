@@ -25,7 +25,7 @@ const TransformationAdvisorySection = () => {
     <section className="bg-black -mt-18  md:-mt-16  text-white  py-12 md:py-24 px-6 md:px-42 font-jakarta text-center">
       {/* Header */}
       <div className="max-w-4xl mx-auto mb-12">
-        <p className="uppercase text-sm text-gray-400 tracking-wide">
+        <p className="uppercase text-[18px] text-gray-400 tracking-wide">
           Strategic IT Consulting &
         </p>
         <h2
@@ -70,10 +70,12 @@ const TransformationAdvisorySection = () => {
                   : "right-0 bg-gradient-to-l from-black to-transparent"
               }`}
             ></div>
-            <h3 className="text-xl font-semibold text-[#9498FD] mb-2">
+            <h3 className="text-[18px] font-semibold text-[#9498FD] mb-2">
               {service.title}
             </h3>
-            <p className="text-lg text-[#FFFFFFCC] mb-4">{service.subtitle}</p>
+            <p className="text-[18px] text-[#FFFFFFCC] mb-4">
+              {service.subtitle}
+            </p>
             <div className="flex justify-center">
               <div className="w-8 h-8 rounded-full border border-[#FFFFFF] flex items-center justify-center">
                 <Icon icon="uil:play" className="text-white text-sm" />

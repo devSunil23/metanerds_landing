@@ -30,7 +30,7 @@ const ConsultingCard = ({ number, title, subtitle, description }) => {
 
         <div className="h-[2px] w-16 bg-[#9498FD] mx-auto my-4 rounded-full"></div>
 
-        <p className="text-sm text-justify md:text-[16px] text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
+        <p className="text-sm text-justify md:text-[18px] text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
           {description}
         </p>
       </div>

@@ -52,7 +52,7 @@ const DigitalMarketingSection = () => {
             >
               DIGITAL MARKETING
             </h2>
-            <p className="text-lg mt-1 font-semibold text-gray-300">
+            <p className="text-[18px] mt-1 font-semibold text-gray-300">
               & Social Media Strategy
             </p>
           </div>
@@ -62,7 +62,7 @@ const DigitalMarketingSection = () => {
 
           {/* Right side */}
           <div className="md:w-[40%] text-left md:pl-2">
-            <p className="mt-0 text-sm md:text-[16px] text-gray-400 leading-relaxed">
+            <p className="mt-0 text-sm md:text-[18px] text-gray-400 leading-relaxed">
               In a world driven by attention and data, we help brands grow
               intelligently. Our digital marketing arm combines strategy,
               content, analytics, and performance tools to build magnetic online
@@ -92,7 +92,7 @@ const DigitalMarketingSection = () => {
                   className="my-1"
                 />
               </div>
-              <p className="text-[15px]  text-white leading-snug">
+              <p className="text-[18px]  text-white leading-snug">
                 {item.title}
                 <span className="ml-1">{item.subtitle}</span>
               </p>
@@ -101,7 +101,7 @@ const DigitalMarketingSection = () => {
         </div>
 
         {/* Quote */}
-        <div className="mt-10 flex items-center md:px-20  max-w-2xl mx-auto text-sm md:text-[16px] text-gray-300 ">
+        <div className="mt-10 flex items-center md:px-20  max-w-2xl mx-auto text-sm md:text-[18px] text-gray-300 ">
           <img
             src="/assets/Frame 23.png"
             alt="quote"

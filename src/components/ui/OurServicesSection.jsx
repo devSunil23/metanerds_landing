@@ -53,7 +53,7 @@ const OurServicesSection = () => {
         <h3 className="mt-4 text-xl md:text-2xl font-semibold text-white">
           Custom Software Architecture & System Design
         </h3>
-        <p className="mt-4 text-sm md:text-[16px] text-gray-400 leading-relaxed">
+        <p className="mt-4 text-sm md:text-[18px] text-gray-400 leading-relaxed">
           We specialize in architecting bespoke software systems tailored to
           your unique operational and strategic needs. From backend architecture
           to user-facing applications, our designs are scalable, secure, and
@@ -74,12 +74,12 @@ const OurServicesSection = () => {
           >
             {/* Circle Number */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-[16px] font-bold text-white">
+              <div className="w-10 h-10 bg-gradient-to-r from-[#7C7AFD] to-[#4B30EA] rounded-full flex items-center justify-center text-[18px] font-bold text-white">
                 #{service.id}
               </div>
             </div>
 
-            <p className="mt-3 text-[16px]  font-[500] text-[#FFFFFF]">
+            <p className="mt-3 text-[18px]  font-[500] text-[#FFFFFF]">
               {service.title}
             </p>
           </div>
@@ -87,7 +87,7 @@ const OurServicesSection = () => {
       </div>
 
       {/* Quote */}
-      <div className="mt-10 flex md:px-16 items-center text-center relative max-w-2xl mx-auto text-sm md:text-[16px] text-gray-300 ">
+      <div className="mt-10 flex md:px-16 items-center text-center relative max-w-2xl mx-auto text-sm md:text-[18px] text-gray-300 ">
         <img
           src="/assets/Frame 23.png"
           alt="quote"

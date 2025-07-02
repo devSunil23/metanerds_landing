@@ -30,14 +30,14 @@ const Web3CardSection = () => {
                 : "bg-gradient-to-l from-[#000000] to-[#9498FD73]"
             }`}
           >
-            <h3 className="text-[28px] font-semibold text-[#FFFFFFCC] mb-1">
+            <h3 className="text-[24px] font-semibold text-[#FFFFFFCC] mb-1">
               {service.title}
             </h3>
-            <p className="text-[28px] font-semibold text-[#FFFFFFCC] mb-2">
+            <p className="text-[24px] font-semibold text-[#FFFFFFCC] mb-2">
               {service.subtitle}
             </p>
             <div className="h-[2px] w-16 bg-[#9498FD] mx-auto my-4 rounded-full"></div>
-            <p className="text-sm md:text-[16px] text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
+            <p className="text-sm md:text-[18px] text-[#FFFFFFCC] leading-relaxed max-w-sm mx-auto">
               {service.description}
             </p>
             <div className="flex justify-center my-2 mt-8">

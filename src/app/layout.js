@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Metanerds",
   description: "Metanerds is a digital marketing agency",
+  icons: {
+    icon: "/favicon.png", // path relative to public folder
+  },
 };
 
 export default function RootLayout({ children }) {

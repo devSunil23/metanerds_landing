@@ -39,7 +39,7 @@ const features = [
 const WhyChoose = () => {
   return (
     <section className="bg-black py-6 md:py-16 px-6 md:px-14 text-white">
-      <h2 className="text-center text-sm md:text-base uppercase text-slate-300 mb-3">
+      <h2 className="text-center text-sm md:text-[18px] uppercase text-slate-300 mb-3">
         Why Choose
       </h2>
       <h1 className="text-center text-3xl md:text-5xl font-bold text-[#9F9DFD] mb-12">
@@ -64,10 +64,10 @@ const WhyChoose = () => {
               } `}
             >
               <div>
-                <h3 className="text-sm md:text-lg font-lighterbold text-[#9498FD]">
+                <h3 className="text-sm md:text-[18px] font-lighterbold text-[#9498FD]">
                   {item.title}
                 </h3>
-                <p className="text-xs leading-[18px] md:text-sm text-[#FFFFFF] mt-2 font-normal">
+                <p className="text-xs leading-[18px] md:text-[18px] text-[#FFFFFF] mt-2 font-light">
                   {item.description}
                 </p>
               </div>

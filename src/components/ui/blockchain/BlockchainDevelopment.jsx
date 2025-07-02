@@ -38,7 +38,7 @@ const BlockchainDevelopment = () => {
             <span className="text-white -mt-4">Development</span>
           </h2>
 
-          <p className="text-xs md:text-[16px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
+          <p className="text-xs md:text-[18px] text-[#FFFFFFCC] max-w-lg leading-relaxed">
             We build scalable, secure blockchain ecosystems for enterprises.
             From custom Layer 1 protocols and smart contracts to NFT
             marketplaces and dApps, we engineer powerful solutions that drive
