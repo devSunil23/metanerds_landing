@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AboutUsSection = () => {
   return (
-    <section className="bg-black text-white px-6 md:px-42 py-6 md:py-20">
+    <section className="bg-black text-white px-6 md:px-42 py-2 md:py-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
         {/* Text */}
         <div className="flex-1 text-justify space-y-6 text-sm md:text-[18px] leading-relaxed text-[#FFFFFFCC]">

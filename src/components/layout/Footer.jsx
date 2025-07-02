@@ -185,7 +185,7 @@ const Footer = () => {
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-[14px] md:text-[18px] text-slate-300 mb-4 md:mt-5">
+          <p className="text-[14px] md:text-[18px] text-slate-300 mb-4 mt-5">
             DSO-IFZA, IFZA Properties, Dubai
             <br />
             Silicon Oasis, UAE
