@@ -9,7 +9,7 @@ import Link from "next/link";
 const Footer = () => {
   const router = useRouter();
   return (
-    <footer className="bg-[#14032B] relative text-white pt-20 pb-10 px-6 md:px-42 font-jakarta">
+    <footer className="bg-[#14032B] relative text-white pt-20 pb-10 md:pb-20 px-6 md:px-42 font-jakarta">
       <img
         src="/assets/wave_dotted_line.png"
         className="absolute left-0 -top-10 w-20 md:w-20 md:h-130  pointer-events-none  "
