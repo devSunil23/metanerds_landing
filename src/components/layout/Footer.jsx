@@ -121,7 +121,7 @@ const Footer = () => {
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
           <div className="flex flex-col">
-            <ul className=" text-[14px] md:text-[18px]  space-y-4  md:space-y-2 mt-4">
+            <ul className=" text-[14px] md:text-[18px]  space-y-4  md:space-y-2 mt-1 md:mt-4">
               {[
                 {
                   name: "Blockchain",
@@ -216,7 +216,7 @@ const Footer = () => {
             <div className="h-[2px] w-4 bg-[#9498FD]" />
             <div className="h-[2px] w-14 bg-[#FFFFFF]" />
           </div>
-          <p className="text-[14px] md:text-[18px] text-slate-300 break-words">
+          <p className="text-[14px] md:mt-5 md:text-[18px] text-slate-300 break-words">
             contact@metanerds.tech
           </p>
           {/* Contact Button */}
@@ -335,7 +335,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-700 mt-12 pt-6 text-[14px] md:text-[18px] text-[#D9D9D9] text-left md:text-center flex flex-col md:flex-row justify-between md:items-center max-w-7xl mx-auto">
+      <div className="border-t border-slate-700 mt-12 pt-6 text-[14px] md:text-[18px] text-[#D9D9D9] text-center flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto">
         <p className="mb-2 md:mb-0">
           © 2025 | Metanerds | All Rights Reserved.
         </p>
