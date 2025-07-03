@@ -29,7 +29,7 @@ const features = [
   {
     title: "Strategic Dubai Location",
     description:
-      "Based in DSO-FZA, At The Intersection Of Innovation, Infrastructure, And Global Connectivity.",
+      "The Intersection Of Innovation, Infrastructure, And Global Connectivity.",
     icon: "iconamoon:arrow-top-right-5-circle-fill",
     number: "04",
     image: "/assets/dubai.png",

@@ -4,19 +4,23 @@ import React from "react";
 const services = [
   {
     id: 1,
-    title: "Enterprise-grade systems",
+    title: "Blockchain",
   },
   {
     id: 2,
-    title: "API and backend architecture",
+    title: "Artificial Intelligence",
   },
   {
     id: 3,
-    title: "Mobile and web application development",
+    title: "Consulting",
   },
   {
     id: 4,
-    title: "System audits and optimization",
+    title: "Web3",
+  },
+  {
+    id: 5,
+    title: "App Development",
   },
 ];
 
