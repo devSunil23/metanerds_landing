@@ -28,7 +28,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex justify-between gap-3 items-center text-[18px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
+        <nav className="hidden md:flex justify-between gap-2 items-center text-[18px] font-semibold text-[#17012C] font-['Plus_Jakarta_Sans'] capitalize">
           <Link
             href="/blockchain"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
@@ -42,17 +42,24 @@ export default function Header() {
             AI
           </Link>
           <Link
-            href="/consulting"
-            className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
-          >
-            Consulting
-          </Link>
-          <Link
             href="/web3"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
           >
             Web3
           </Link>
+          <Link
+            href="/app-development"
+            className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
+          >
+            App Development
+          </Link>
+          <Link
+            href="/consulting"
+            className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
+          >
+            Consulting
+          </Link>
+
           <Link
             href="/aboutus"
             className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
@@ -91,6 +98,7 @@ export default function Header() {
             >
               Blockchain
             </Link>
+
             <Link
               onClick={() => setMenuOpen(false)}
               href="/ai"
@@ -100,18 +108,26 @@ export default function Header() {
             </Link>
             <Link
               onClick={() => setMenuOpen(false)}
-              href="/consulting"
-              className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
-            >
-              Consulting
-            </Link>
-            <Link
-              onClick={() => setMenuOpen(false)}
               href="/web3"
               className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
             >
               Web3
             </Link>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/app-development"
+              className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
+            >
+              App Development
+            </Link>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/consulting"
+              className="border border-transparent rounded hover:border-[#4C30EA] hover:border-[1px] transition text-current hover:text-indigo-600 p-[5px]"
+            >
+              Consulting
+            </Link>
+
             <Link
               onClick={() => setMenuOpen(false)}
               href="/aboutus"

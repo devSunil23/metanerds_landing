@@ -132,12 +132,16 @@ const Footer = () => {
                   link: "/ai",
                 },
                 {
-                  name: "Consulting",
-                  link: "/consulting",
-                },
-                {
                   name: "Web3",
                   link: "/web3",
+                },
+                {
+                  name: "App Development",
+                  link: "/app-development",
+                },
+                {
+                  name: "Consulting",
+                  link: "/consulting",
                 },
               ].map((item, index) => (
                 <li

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const BlockchainDevelopment = () => {
   return (
-    <section className="bg-black text-white px-6 md:px-48 py-6 md:py-24">
+    <section className="bg-black overflow-hidden  text-white px-6 md:px-48 py-6 md:py-24 relative">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
         <img
           src="/assets/elipse_1460.png"
