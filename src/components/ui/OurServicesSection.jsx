@@ -12,7 +12,7 @@ const services = [
   },
   {
     id: 3,
-    title: "Consulting",
+    title: "App Development",
   },
   {
     id: 4,
@@ -20,7 +20,7 @@ const services = [
   },
   {
     id: 5,
-    title: "App Development",
+    title: "Consulting",
   },
 ];
 
