@@ -23,7 +23,7 @@ export default function AppDevFeatureSection() {
     {
       number: "04",
 
-      subtitle: "* Backend API Development & Cloud Integration",
+      subtitle: "Backend API Development & Cloud Integration",
     },
     {
       number: "05",
